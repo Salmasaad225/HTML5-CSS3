@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap" rel="stylesheet"> <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/230deb1d3c.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap" rel="stylesheet">
+        <style>
+            img{
+                position: relative;
+                left:700px;
+                top: 70px;
+            }
+            #sec1{
+                background-color: aqua;
+                position: relative;
+                left: 700px;
+
+
+            }
+            #bigdiv{
+                position: relative;
+                left: 100px;
+            }
+            h1{
+                width: 170px;
+                background-color: palevioletred;
+            }
+            .div{
+                display: inline-block;
+                margin: -4px;
+            }
+            footer{
+                position: relative;
+                top:700px;
+            }
+            i{
+                color:red
+            }
+           
+
+            
+
+
+        </style>
+
+    </head>
+    <body>
+
+        <header style="background-color: orange;">
+             <img src="hhh.jpg" alt="" width="140" height="140">
+            <h2 style="text-align: center;">salma saad</h2>
+            <p style="text-align: center;">hi iam salma saad iam 23 years old graduated from helwan univercity</p>
+            
+        </header>
+        <section id="sec1" >
+            <div >ACHIEVEMENTS</div>
+            <p class="p">Birth Date<time datetime="2000-9-25"> </time>2000-9-25</p>
+        </section>
+        <div id="bigdiv">
+        <aside >
+            <div>
+                <h1 id="contact" onclick="aud()">CONTACT</h1><br>
+                <audio id="aud" src="bgsound (1).mp3"></audio>
+                <i class="fa-solid fa-phone"></i> <p>tel:0111111111111</p><br>
+                
+                <i class="fa-solid fa-envelope"></i>
+                <p>email:sdfgh@@.com</p>
+                <i class="fa-solid fa-house"></i>
+                <p>helwan</p>
+            </div> <br><br>
+        <h1>LANGUAGES</h1><br><br>
+        <label for="EN">english</label>
+        <meter id="EN" min="0" max="100" value="88"></meter><br>
+        <label for="FR">french</label>
+        <meter id="FR" min="0" max="100" value="70"></meter><br>
+        <label for="G">german</label>
+        <meter id="G" min="0" max="100" value="50"></meter>
+        <br><br><br>   
+        
+        <h1>SKILLS</h1><br><br>
+        <label for="H">html</label>
+        <meter  id="H" min="0" max="100" value="88"></meter><br>
+        <label for="C">css</label>
+        <meter id="C" min="0" max="100" value="70"></meter><br>
+        <label for="J">js</label>
+        <meter id="J" min="0" max="100" value="50"></meter>
+        </aside>
+        
+         <br>
+        <section style="background-color: rgb(240, 143, 39);position: relative; left:600px ;bottom :600px;">
+            <h1>EDUCATION</h1>
+        <p >graduated from helwan univercity</p>
+        <p >graduated from helwan univercity</p>
+        <p >graduated from helwan univercity</p>
+        <p >graduated from helwan univercity</p>
+        </section><br>
+        <section style="background-color: rgb(240, 143, 39);position: relative; left:600px ;bottom :600px;">
+           <h1>WORK EXPERIENCE</h1>
+            <p>graduated from helwan univercity</p>
+            <p>graduated from helwan univercity</p>
+            <p>graduated from helwan univercity</p>
+        </section><br>
+        <footer>
+
+            
+            
+         
+          
+         </footer >
+          <div  class="div"  style="background-color:orange ;width:550px;height:20px ;"></div>
+          <div class="div" style="background-color:red ;width:550px;height:20px"></div>
+          <div  class="div" style="background-color:orange ;width:550px;height:20px"></div>
+         </footer>
+        </div>
+
+        <script>
+
+            var vid = document.getElementById("vid");
+            function videoPlay(){
+                if(vid.paused){
+                    vid.play();
+                }else{
+                    vid.pause();
+                }
+            }
+            
+            function aud(){
+                var aud =  document.getElementById("aud");
+                
+                    if(aud.paused){              
+                       aud.play(); 
+                    }else{                      
+                        aud.pause();  
+                    }
+              
+            }
+       
+               
+          
+        </script>  
+
+
+
+    </body>
+</html>

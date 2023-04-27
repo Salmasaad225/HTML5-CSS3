@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            img{
+                position: relative;
+                left:700px;
+                top: 70px;
+            }
+            #sec1{
+                background-color: aqua;
+                position: relative;
+                left: 700px;
+
+
+            }
+            #bigdiv{
+                position: relative;
+                left: 100px;
+            }
+            h1{
+                background-color: palevioletred;
+            }
+
+            
+
+
+        </style>
+
+    </head>
+    <body>
+
+        <header>
+             <img src="hhh.jpg" alt="" width="140" height="140">
+            <h2 style="text-align: center;">salma saad</h2>
+            <p style="text-align: center;">hi iam salma saad iam 23 years old graduated from helwan univercity</p>
+            
+        </header>
+        <section id="sec1">
+            <div >ACHIEVEMENTS</div>
+            <p class="p">Birth Date<time datetime="2000-9-25"> </time>2000-9-25</p>
+        </section>
+        <div id="bigdiv">
+        <aside >
+            <div>
+                <h1 id="contact" onclick="aud()">CONTACT</h1><br>
+                <audio id="aud" src="bgsound (1).mp3"></audio>
+                <p>tel:0111111111111</p><br>
+                <p>email:sdfgh@@.com</p>
+            </div> <br><br>
+        <h1>LANGUAGES</h1><br><br>
+        <label for="EN">english</label>
+        <meter id="EN" min="0" max="100" value="88"></meter><br>
+        <label for="FR">french</label>
+        <meter id="FR" min="0" max="100" value="70"></meter><br>
+        <label for="G">german</label>
+        <meter id="G" min="0" max="100" value="50"></meter>
+        <br><br><br>   
+        
+        <h1>SKILLS</h1><br><br>
+        <label for="H">html</label>
+        <meter  id="H" min="0" max="100" value="88"></meter><br>
+        <label for="C">css</label>
+        <meter id="C" min="0" max="100" value="70"></meter><br>
+        <label for="J">js</label>
+        <meter id="J" min="0" max="100" value="50"></meter>
+        </aside>
+        
+         <br>
+        <section>
+            <h1>EDUCATION</h1>
+        <p >graduated from helwan univercity</p></section><br>
+        <section>
+           <h1>WORK EXPERIENCE</h1>
+            <p>graduated from helwan univercity</p>
+        </section><br>
+        <footer>
+
+            
+            
+         
+          
+         </footer>
+          <video id="vid" width="500" height="500" onclick="videoPlay()" >
+            <source src="sample.mp4" type="video/mp4">
+            <source src="sample.ogg">
+            <source src="sample.webm">
+            Your Broswer dosn't supported 
+          </video>
+
+
+        
+         </footer>
+        </div>
+
+        <script>
+
+            var vid = document.getElementById("vid");
+            function videoPlay(){
+                if(vid.paused){
+                    vid.play();
+                }else{
+                    vid.pause();
+                }
+            }
+            
+            function aud(){
+                var aud =  document.getElementById("aud");
+                
+                    if(aud.paused){              
+                       aud.play(); 
+                    }else{                      
+                        aud.pause();  
+                    }
+              
+            }
+       
+               
+          
+        </script>  
+
+
+
+    </body>
+</html>

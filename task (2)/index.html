@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap" rel="stylesheet"> <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/230deb1d3c.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap" rel="stylesheet">
+    <style>
+        div{
+            position:relative;
+           left: 500px;
+            top:300px;
+        }
+
+        .img{
+            width:300px;
+            height:200px;
+            transition-property:all;
+            transition-duration:0.3s;
+
+
+            
+        }
+        .img:hover{
+           
+            transform: scale(2);
+            box-shadow: 10px 10px 30px 50px;
+        }
+        nav{
+            width: 300px;
+            height: 50px;
+            background-color: gray;
+            position: relative;
+            left:200px;
+            top:200px
+            
+        }
+
+        i{
+            display: inline;
+            
+            font-size: 50px;
+            transition-property:all;
+            transition-duration:0.3s;
+            
+        }
+        i:hover{
+            
+            background-color: rgb(13, 158, 13);
+            transition-property:all;
+            transition-duration:0.3s;
+       
+        }
+        @font-face {
+            font-family: 'salma';
+            src: url(OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+        }
+        #g{
+            border: 25px;
+            border-radius: 25px;
+            background-color: lightgray;
+            width: 500px;
+            height: 100px;
+        }
+        #s{
+            position: relative;
+            left: 500px;
+           top: 200px;
+            max-width:5% ;
+
+        }
+        .list-inline{
+            display: inline;
+        }
+        
+        
+    
+    </style>
+
+    
+
+</head>
+<body>
+    <nav>
+        
+        <i class="fa-solid fa-house"></i>
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <i class="fa-solid fa-envelope"></i>
+        <i class="fa-solid fa-globe"></i>
+        <i class="fa-solid fa-trash"></i> 
+        
+
+
+    </nav>
+
+ <nav style="background-color: gray;">
+    <ul style="list-style-type: none;">
+        <li class="list-inline">
+            
+                <i class="fa-solid fa-home"></i>
+        </li>
+        <li class="list-inline">
+            
+                <i class="fa-solid fa-search"></i>
+             
+        </li>
+        <li class="list-inline">
+            
+                <i class="fa-solid fa-envelope"></i>
+           
+        </li>
+        <li class="list-inline">
+            
+            <i class="fa-solid fa-trash"></i> 
+            
+        </li>
+    </ul>
+</nav>    
+            
+…
+    
+
+    <div>
+     <img class="img" src="1.jpg" alt="photo" >
+    <img class="img" src="2.jpg" alt="photo">
+    <img class="img" src="3.jpg" alt="photo">
+    <img class="img" src="4.jpg" alt="photo">
+    </div>
+
+    <article>
+        <h1 style="font-family: 'Cairo', sans-serif;"> hi iam salma</h1>
+        <h1 style="font-family:salma ;">hi iam salma </h1>
+    </article>
+
+    <div  class="jjj"   style="position: relative;left: 450px;bottom: 130px;font-size: 20px;" >
+        <div  id="g">
+            <p  class="jjj" id="pp" style="position: relative;left: 200px;"> my name is salma</p>
+
+            <i class="fa-solid fa-close"  id="close" style="position: relative;left: 450px;font-size: 20px;" ></i>
+           
+        </div>
+
+        <img  class="jjj" src="pic.png" alt="photo " id="s">
+        
+       
+       
+        
+    </div>
+    
+    <script>
+       
+
+           
+            document.getElementById("close")
+            .addEventListener('click', function (event) {
+                
+                document.getElementById("g").style.width = '0px' ;
+                document.getElementById("g").style.opacity = '0%' ;
+                document.getElementById("g").color="transperent" ;
+
+            })
+
+            document.getElementById("s")
+            .addEventListener('click', function (event) {
+                
+                document.getElementById("g").style.width = '100px' ;
+                document.getElementById("g").style.opacity = '100%' ;
+                document.getElementById("g").color= "grey";
+
+            })
+
+
+
+        
+    </script>
+   
+
+        
+    
+
+
+</body>
